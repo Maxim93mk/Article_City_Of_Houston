@@ -1,0 +1,111 @@
+body{
+   background-image: url(img/main.jpg);
+   background-repeat: repeat;
+    font-family:'Segoe UI', sans-serif;
+    text-align: justify;
+   
+}
+b, i{
+    color:#AD6831;
+}
+p{
+    color:#7B827B;
+    font-size: 18px;
+    text-indent: 30px;
+}
+h1, h2{
+    color:#AD6831;
+    text-align: center;
+}
+.header{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height:30%;
+    border-bottom: 2px #AD6831 solid;
+    
+    
+}
+.main{
+    color: bisque;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+figure{
+    font-style: italic;
+    float:right;
+    
+}
+.content{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+.li_m{  
+    list-style-type: none;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: bisque;
+    margin: 2%;
+    border-radius: 7px;
+    background-color: #161616;  
+    border-left: 7px solid #ac6730;
+    padding: 0.7%;
+}
+figcaption{
+    text-align:center;
+    width: 250px;
+    background: #161616;
+    border-radius: 3px;
+}
+a:hover{
+        background-color:bisque; 
+        color: #161616;
+}
+.h2_l{
+    text-align: left;
+}
+.all{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+blockquote{
+    color: bisque;
+    font-style: italic;
+}
+table{
+    text-align: center;
+    color: bisque;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin-bottom: 5%;
+}
+caption{
+    text-align: center;
+    font-style: italic;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: bisque;
+}
+td{
+    width: auto;
+    text-align: center;
+    border-bottom: 2px solid #4e5c86;
+    color:#7B827B;
+}
+.ns{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+.tbl{
+    width: 50%;
+}
