@@ -1,21 +1,43 @@
 @import url(./font.css);
 
+:root {
+    /* Глобальные переменные */
+    --main_img: url(img/main.jpg);
+    --primary_color_title: #AD6831;
+    --primary_color_text: #7B827B;
+    --first_letter_color: #AD6831;
+    --border_bottom_img_color: #AD6831;
+    --table_lines_color: #161616;
+}
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-    background-image: url(img/main.jpg);
-    background-repeat: repeat;
+.content {
+    background-image: var(--main_img);
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
+    font-weight: 600;
     font-style: normal;
     text-align: justify;
-
+    color: var(--primary_color_text);
+    font-size: 20px;
 }
 
+.img_header {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.intro {
+    margin: 0 30px;
+}
+
+/*
 b,
 i {
     color: #AD6831;
@@ -25,7 +47,7 @@ b {}
 
 p {
     color: #7B827B;
-    font-size: 18px;
+    
     text-indent: 30px;
     margin-bottom: 20px;
     font-style: italic;
@@ -156,4 +178,4 @@ td {
 
 .tbl {
     width: 50%;
-}
+} */
